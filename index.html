@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mas Uuth - Personal Branding</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="container">
+        
+        <header class="sidebar">
+            <div class="profile-container">
+                <div class="swiper mySwiper profile-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/foto1.jpg" alt="Foto 1"></div>
+                        <div class="swiper-slide"><img src="assets/foto2.jpg" alt="Foto 2"></div>
+                        <div class="swiper-slide"><img src="assets/foto3.jpg" alt="Foto 3"></div>
+                        <div class="swiper-slide"><img src="assets/foto4.jpg" alt="Foto 4"></div>
+                    </div>
+                </div>
+
+                <h1 class="name">Mas Uuth</h1>
+                <p class="role">Politisi Muda & Developer</p>
+                
+                <div class="social-icons">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about" class="active"><i class="fas fa-user"></i> Profile</a></li>
+                    <li><a href="#resume"><i class="fas fa-history"></i> Biografi</a></li>
+                    <li><a href="#gallery"><i class="fas fa-images"></i> Galeri</a></li>
+                    <li><a href="#blog"><i class="fas fa-newspaper"></i> Blog</a></li>
+                    <li><a href="#contact"><i class="fas fa-paper-plane"></i> Kontak</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <a href="#" class="btn-download">Download CV <i class="fas fa-download"></i></a>
+            </div>
+        </header>
+
+        <main class="content">
+            
+            <section id="about" class="section active">
+                <div class="section-title">
+                    <h2>Tentang <span>Saya</span></h2>
+                </div>
+                <div class="about-info">
+                    <p>Halo, saya Mas Uuth. Seorang visioner yang bergerak di bidang politik dan teknologi...</p>
+                    <div class="info-list">
+                        <ul>
+                            <li><strong>Nama:</strong> Mas Uuth</li>
+                            <li><strong>Umur:</strong> [Umur Mas Uuth] Tahun</li>
+                            <li><strong>Pekerjaan:</strong> Politisi & Developer</li>
+                            <li><strong>Alamat:</strong> [Alamat Lengkap]</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resume" class="section">
+                <div class="section-title">
+                    <h2>Biografi <span>Saya</span></h2>
+                </div>
+                <div class="timeline-box">
+                    <h3><i class="fas fa-briefcase"></i> Pengalaman Kerja</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">2020 - Sekarang</span>
+                            <h4>Founder ARUS App</h4>
+                            <p>Mengembangkan aplikasi referral berbasis Firebase.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2018 - 2020</span>
+                            <h4>Marketing Specialist</h4>
+                            <p>Deskripsi pekerjaan...</p>
+                        </div>
+                    </div>
+                </div>
+                </section>
+
+            <section id="gallery" class="section">
+                <div class="section-title">
+                    <h2>Galeri <span>Kegiatan</span></h2>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="gallery-item photo">
+                        <img src="https://via.placeholder.com/300" alt="Kegiatan">
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog" class="section">
+                <div class="section-title">
+                    <h2>Blog <span>Terbaru</span></h2>
+                </div>
+                <div id="blog-container" class="blog-grid">
+                    <p>Memuat artikel...</p>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="section-title">
+                    <h2>Hubungi <span>Saya</span></h2>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="map-box">
+                        <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="contact-info">
+                        <a href="https://wa.me/6285211360396?text=Assalamualaikum%2C%20Cak%20Syafak.%20Saya%20mau%20menyampaikan%20Aspirasi%20saya." target="_blank" class="btn-wa">
+                            <i class="fab fa-whatsapp"></i> Sampaikan Aspirasi (WA)
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
